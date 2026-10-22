@@ -90,6 +90,10 @@ The model is calibrated equally well for boys and girls but discriminates stunti
 
 Register at https://dhsprogram.com/data/, download BDKR81DT.ZIP, place .DTA in data/raw/, pip install -r requirements.txt, run notebooks, run python src/fairness_audit.py.
 
+## Language and reproducibility
+
+The pipeline runs in one command: python src/run_pipeline.py. Weighted prevalence was independently cross-checked in R using the survey package. R gives 0.2322 and Python gives 0.232, agreeing within 0.0002. See r-analysis/ for the R script and expected output.
+
 ## Citation
 
 Sweety Akter (2026). Calibration and subgroup fairness audit of a childhood stunting risk model using BDHS-2022 Kids Recode data. GitHub repository.

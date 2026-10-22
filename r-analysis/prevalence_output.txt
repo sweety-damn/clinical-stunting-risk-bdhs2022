@@ -1,0 +1,21 @@
+=== R survey-weighted prevalence (BDHS-2022, KR file) ===
+
+Overall weighted prevalence: 0.2322 (23.22%)
+Standard error:             0.0084
+
+By residence:
+ Urban  Rural 
+0.2136 0.2386 
+
+By wealth quintile:
+Q1 (poorest)           Q2           Q3           Q4 Q5 (richest) 
+      0.3424       0.2675       0.2176       0.1701       0.1529 
+
+By sex:
+  Male Female 
+0.2352 0.2291 
+
+Comparison with Python:
+  Python weighted prevalence (full cohort): 0.232
+  R survey-weighted prevalence (full cohort): see above
+  Expected: agreement to within 0.005
