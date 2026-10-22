@@ -88,7 +88,7 @@ The model is calibrated equally well for boys and girls but discriminates stunti
 
 ## Reproducibility
 
-Register at https://dhsprogram.com/data/, download BDKR81DT.ZIP, place .DTA in data/raw/, pip install -r requirements.txt, run notebooks, run python src/fairness_audit.py.
+Register at https://dhsprogram.com/data/, download BDKR81DT.ZIP, place .DTA in data/raw/, pip install -r requirements.txt, then run: python src/run_pipeline.py.
 
 ## Language and reproducibility
 
