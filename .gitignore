@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Data (DHS terms of use: never commit microdata or row-level derived data)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model artifacts
+models/*
+*.pkl
+*.parquet
+*.npz
+*.joblib
+
+# Personal documentation
+docs/
+
+# OS
+.DS_Store
+Thumbs.db
