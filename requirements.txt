@@ -1,0 +1,7 @@
+pandas==2.2.3
+numpy==2.2.6
+scikit-learn==1.7.1
+xgboost==3.4.1
+matplotlib==3.10.7
+fairlearn==0.15.0
+pyarrow
